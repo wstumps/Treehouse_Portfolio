@@ -56,7 +56,7 @@ a:active {
 .about-me {
     margin: auto 10px;
     text-align: center;
-    color: rgb(153, 150, 150);
+    color: rgb(37, 37, 37);
 }
 
 /* Portfolio */
@@ -68,7 +68,7 @@ h3 {
 p {
     padding-bottom: 20px;
     font-size: .85rem;
-    color: rgb(153, 150, 150);
+    color: rgb(37, 37, 37);
 }
 
 #portfolio {
@@ -85,8 +85,8 @@ p {
     margin: 0 auto;
     padding: 10px 0;
     display: block;
-    width: 85vw;
-    height: 60vw;
+    width: 290px;
+    height: 200px;
 }
 
 /* Contact */
@@ -122,5 +122,91 @@ hr {
 }
 
 .footer-text a:visited {
-    color:rgb(153, 150, 150)
+    color:rgb(37, 37, 37);
+}
+
+.navbar-footer {
+    display: none;
+    visibility: hidden;
+}
+
+/* Media Queries: 768px screens */
+
+@media (min-width: 768px) {
+    h2 {
+        padding: 30px 0 10px;
+    }
+
+    .navbar a {
+        display: inline-block;
+        background-color: grey;
+        color: rgb(221, 221, 221);
+        font-weight: bold;
+        padding: 0 5px;
+    }
+
+    .navbar a:active {
+        background-color: grey;
+        color: rgb(44, 44, 44);
+    }
+
+    .header-pic {
+        float: right;
+        margin-right: 15px;
+    }
+
+    .about-me {
+        clear: left;
+        max-width: 65vw;
+        margin-left: 10px;
+        padding: 80px 0 60px 10px;
+        text-align: left;
+        line-height: 1.5rem;
+    }
+
+    .projects {
+        display: inline-block;
+        padding-bottom: 20px;
+        max-width: 45%;
+        line-height: 1.5rem;
+    }
+
+    #contact p {
+        margin: 0 auto;
+        width: 60%;
+        text-align: center;
+    }
+
+    .footer-text {
+        display: none;
+        visibility: hidden;
+    }
+
+    .navbar-footer {
+        display: inline-block;
+        visibility: visible;
+        width: 100%;
+    }
+
+    .navbar-footer p {
+        font-weight: 600;
+        margin-bottom: -40px;
+        padding: 20px 0;
+    }
+
+    .footer-links {
+        float: right;
+        
+    }
+    
+    .navbar-footer a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 0 5px 40px;
+    }
+
+    .navbar-footer a:visited {
+        color:rgb(37, 37, 37);
+    }
+    
 }
