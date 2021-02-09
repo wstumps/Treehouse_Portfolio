@@ -1,7 +1,7 @@
 * {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -87,6 +87,25 @@ p {
     display: block;
     width: 290px;
     height: 200px;
+}
+
+/* Skills */
+
+#skills {
+    text-align: center;
+}
+
+.skill {
+    padding-bottom: 40px;
+}
+
+
+li {
+    display: inline-block;
+    width: 45%;
+    margin: 5px;
+    padding: 20px;
+    color: rgb(37, 37, 37);
 }
 
 /* Contact */
