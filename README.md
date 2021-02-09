@@ -1,1 +1,1 @@
-# This is the second project of the Treehouse Front End Web Development TechDegree course. It involves building out a portfolio from given mockups.
+# This is the second project of the Treehouse Front End Web Development TechDegree course. It involves building out a portfolio from given mockups by using a mobile-first approach for a responsive webpage.
